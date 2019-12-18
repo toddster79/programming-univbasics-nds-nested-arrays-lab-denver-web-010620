@@ -32,8 +32,8 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   combined_produce_array = [
-    CONVENTIONAL_PRODUCE[4][0][1][2][3],
-    ORGANIC_PRODUCE[4][3][2][1][0]
+    SORTED_CONVENTIONAL[4][0][1][2][3],
+    SORTED_ORGANIC[4][3][2][1][0]
     ]
 end
 
