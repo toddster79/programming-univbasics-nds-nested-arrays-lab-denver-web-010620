@@ -42,7 +42,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   matrix = [
     [0, 1, 2, 3, 4],
-    [a, b, c, d, e]
+    ["a", "b", "c", "d", "e"]
     ]
   return matrix[1][2]
 end
