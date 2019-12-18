@@ -40,7 +40,10 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  
+  combined_produce_array = [
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes",  "Strawberries"]
+    ]
   return matrix[1][2]
 end
 
