@@ -44,7 +44,7 @@ def matrix_lookup(matrix, row, column)
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Asparagus", "Avocadoes", "Grapes", "Potatoes",  "Strawberries"]
     ]
-  return matrix[1][2]
+  return matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
